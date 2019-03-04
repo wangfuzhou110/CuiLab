@@ -1,0 +1,30 @@
+<!--pages/mission/mission.wxml-->
+<scroll-view scroll-y="true" class='container'>
+<block wx:for='{{missions}}' wx:key='id'>
+  <!-- <view class='mission' data-name='{{item.id}}' bindtap='onTapSelect'> -->
+  <view class="missioncontainer">
+    <scroll-view class='content-container' scroll-y>
+          <text class="content">{{item.content}}</text>
+    </scroll-view>
+    <view class='info-container' style='display: flex' flex-direction='column' >
+      <view class="employer">
+        <text>发布：</text>
+        <text>{{item.employer}}</text>
+      </view>
+      <view class="employee">
+        <text>受任：</text>
+        <text>{{item.employee}}</text>
+      </view>
+      <view class="date">
+        <text>{{item.date}}</text>
+      </view>
+      
+    </view>
+    
+    <button class="finish" type='warn' bindtap="onTapDelete" data-name='{{item.id}}'>完成</button>
+  </view>
+</block>
+</scroll-view>
+
+<button class='create' bindtap='onTapCreate'>新建任务</button>
+

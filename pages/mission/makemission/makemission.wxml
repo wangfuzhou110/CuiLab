@@ -1,0 +1,29 @@
+<!--pages/mission/makemission/makemission.wxml-->
+<view class='form-container'>
+  <form bindsubmit='missionSubmit'>
+    <view class="employercontainer">
+      <view class="employertext">发起人</view>
+      <input placeholder='输入任务发起人' class="employerinput" name="employer"></input>
+    </view>
+    <view  class="employeecontainer">
+      <view class="employeetext">执行者</view>
+      <input placeholder='输入任务执行者' class="employeeinput" name="employee"></input>
+    </view>
+    <view class="contentcontainer">
+      <view class="contenttext">任务详情</view>
+      <textarea placeholder='输入任务详情' class='contentinput' name="content"></textarea>
+    </view>
+
+    <view class="section">
+      <view class="section__title">请选择截止日期</view>
+      <picker mode="date" value="{{pickDate}}" start="2015-09-01" end="2030-09-01" bindchange="bindDateChange" name='date' class='picker-container'>
+        <view class="picker">
+          当前选择: {{pickDate}}
+        </view>
+      </picker>
+    </view>
+
+    <!-- <textarea placeholder='请输入用户名' class="chatinput" name="user"></textarea> -->
+    <button type="primary" form-type='submit' class="submitbutton">提交</button>
+  </form>
+</view>

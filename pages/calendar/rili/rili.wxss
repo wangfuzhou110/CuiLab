@@ -1,0 +1,45 @@
+/* pages/calendar/rili/rili.wxss */
+.big-container {
+  height: 100vh;
+  width: 100%
+}
+.all-container {
+  display: flex;
+  background: pink;
+  height: 100%;
+  padding: 0px 60px 0px 60px;
+  flex-direction: column;
+  justify-content: space-around
+}
+.mo-container {
+  box-shadow: 2px 2px 2px 2px #e4e4e4;
+  border-radius: 5%;
+  background: #f5f5f5;
+  height: 20%;
+  text-align: center
+}
+
+.extract-container {
+  box-shadow: 2px 2px 2px 2px #e4e4e4;
+  border-radius: 5%;
+    background: #f5f5f5;
+    height: 20%;
+    text-align: center
+}
+.jian-container {
+  box-shadow: 2px 2px 2px 2px #e4e4e4;
+  border-radius: 5%;
+  background: #f5f5f5;
+  height: 20%;
+  text-align: center
+}
+.mo-hover {
+  background: #e4e4e4
+}
+.jian-hover {
+  background: #e4e4e4
+}
+
+.extract-hover{
+  background: #e4e4e4
+}

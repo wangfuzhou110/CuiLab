@@ -1,0 +1,76 @@
+/* pages/mission/makemission/makemission.wxss */
+page {
+  background-color: #f5f5f5
+}
+.form-container {
+  margin: 20px;
+  border: 3px solid #a9a9a9;
+  border-radius: 5%;
+  box-shadow: 5px #e4e4e4;
+  padding: 10px 10px 10px 10px
+}
+.employercontainer {
+  margin: 5px;
+  width: 100%
+}
+.employertext {
+  /* width: 40%; */
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4
+}
+.employerinput {
+  text-align: center;
+  margin: 10px 0px 0px 0px 
+}
+
+
+
+
+.employeecontainer {
+  margin: 5px;
+  width: 100%
+}
+.employeetext {
+  /* width: 40%; */
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4
+}
+.employeeinput {
+  text-align: center;
+  margin: 10px 0px 0px 0px 
+}
+
+.contentcontainer {
+  margin: 5px;
+  width: 100%
+}
+.contenttext {
+  /* width: 40%; */
+  text-align: center;
+}
+.contentinput {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px 0px 0px ;
+  border: 2px solid #e4e4e4;
+  border-radius: 5%
+}
+
+.section {
+  margin-bottom: 20px;
+  /* align-items: center; */
+}
+.section__title {
+  text-align: center;
+}
+.picker-container{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.picker {
+  text-align: center;
+  border: 2px solid #e4e4e4;
+  width:600rpx;
+  background-color: white 
+}

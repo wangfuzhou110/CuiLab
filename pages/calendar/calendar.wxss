@@ -1,0 +1,13 @@
+/* pages/calendar/calendar.wxss */
+.form-container {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px 35% 0px 25%;
+}
+
+.input {
+  position: fixed;
+  bottom: 50vh;
+  border-bottom: 1px solid #e4e4e4
+}

@@ -1,0 +1,26 @@
+/* pages/req/usebase/findbase/verify/verify.wxss */
+
+.title-container {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  color: #696969
+}
+.form-container {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px 3px #e4e4e4;
+  background-color: #f5f5f5;
+  text-align: center
+}
+
+
+.passwd-input {
+  margin-top: 100px;
+  border-bottom: 1px solid #e4e4e4
+}
+
+.submit-button{
+  margin-top:100px
+}

@@ -1,0 +1,55 @@
+<scroll-view scroll-y="{{true}}" class='scroll-container'>
+<block wx:for='{{wastes}}' wx:key='name'>
+  <view class='waste-container'>
+    <view class='detail-container'>
+      <view class='name-container'>
+        <text class="name">{{item.name}}</text>
+      </view>
+      <view class='info-container'>
+        <text class="myleft">{{item.myleft}}</text>
+        <text class="unit">{{item.unit}}</text>
+      </view>
+    </view>
+    
+    <view class='other-container'>
+      <button class="change" bindtap="onTapChange" data-name='{{item.name}}'>更改剩余量</button>
+      <view class='urgent-container'>
+       <text class='urgent' wx:if="{{item.urgent==1}}" color='red'>库存紧张</text>
+      </view>
+    </view>
+    
+  </view>
+  <!-- <view class='mission' data-name='{{item.id}}' bindtap='onTapSelect'> -->
+  
+</block>
+</scroll-view>
+
+<button class='create' bindtap='onTapCreate'>新增条目</button>
+
+<view class='toast-box' hidden='{{!ifChange}}'>
+    <view class='toastbg'></view>
+    <view class='showToast'>
+        <view class='toast-title'>
+            <text>修改条目</text>
+        </view>
+        <view class='toast-main'>
+            <view class='toast-input'>
+                <input value='{{inputValue}}' placeholder='请输入余量' bindinput='setValue'></input>
+            </view>
+        </view>
+        <view class='toast-urgent'>
+            <view class='toast-switch'>
+                <text>是否库存紧张</text>
+                <switch bindchange='setSwitch' checked='{{ifchecked}}'></switch>
+            </view>
+        </view>
+        <view class='toast-button'>
+            <view class='button1'>
+                <button catchtap='cancel'>取消</button>
+            </view>
+            <view class='button2'>
+                <button catchtap='confirm' data-name='{{nameToChange}}'>确定</button>
+            </view>
+        </view>
+    </view>
+</view>

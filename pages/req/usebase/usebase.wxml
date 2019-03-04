@@ -1,0 +1,8 @@
+<!--pages/req/usebase/usebase.wxml-->
+<scroll-view class='base-container' scroll-y>
+  <block class='bases' wx:for='{{bases}}' wx:key='name'>
+    <view class='base' data-name='{{item.name}}' bindtap='onTapSelect' hover-class='hover-base'>{{item.name}}</view>
+  </block>
+</scroll-view>
+
+<view class='question' bindtap='onTapFind'>列表中没有您的实验室？点击这里加入实验室</view>

@@ -1,0 +1,28 @@
+<!--pages/calendar/rili/rili.wxml-->
+<view class='big-container'>
+  <view class='all-container'>
+  <view class='mo-container' bindtap='moTap' hover-class='mo-hover'>
+    <text>
+      磨骨日历
+    </text>
+  </view>
+
+  <view class='extract-container' bindtap='extractTap' hover-class='extract-hover'>
+    <text>
+      抽提日历
+    </text>
+  </view>
+
+  <view class='jian-container' bindtap='jianTap' hover-class='jian-hover'>
+    <text>
+      建库日历
+    </text>
+  </view>
+</view>
+</view>
+
+
+
+
+
+

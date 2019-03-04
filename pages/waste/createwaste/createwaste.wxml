@@ -1,0 +1,28 @@
+<!--pages/waste/createwaste/createwaste.wxml-->
+<view class='form-container'>
+  <form bindsubmit='submitwaste'>
+    <view class='name-container'>
+      <view class='name-text'>
+        <text>试剂名称</text>
+      </view>
+      <input placeholder='输入试剂名称' class='nameinput' name='name'></input>
+    </view>
+    <view class='left-container'>
+      <view class='left-text'>
+        <text>剩余量</text>
+      </view>
+      <input placeholder='输入试剂剩余' class='leftinput' name='myleft'></input>
+    </view>
+    <view class='unit-container'>
+      <view class='unit-text'>
+        <text>单位</text>
+      </view>
+      <input placeholder='输入试剂单位' class='unitinput' name='unit'></input>
+    </view>
+    <view class='urgent-container'>
+      <text>剩余量是否紧张</text>
+      <switch class='urgentswitch' name='urgent' color='red'></switch>
+    </view>
+    <button type="primary" form-type='submit' class="submitbutton">提交</button>
+  </form>
+</view>

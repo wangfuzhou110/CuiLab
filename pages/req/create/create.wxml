@@ -1,0 +1,16 @@
+<!--pages/req/create/create.wxml-->
+<view class='form-container'>
+  <view class='form-title'>创建我的实验室</view>
+  <form bindsubmit='baseSubmit'>
+    <view class="name-container">
+      <view class="name-text">名称</view>
+      <input placeholder='请设置课题组名称（英文）' class="name-input" name="basename"></input>
+    </view>
+    <view class="passwd-container">
+      <view class="passwd-text">密码</view>
+      <input placeholder='请设置密码' class="passwd-input" name="passwd"></input>
+    </view>
+    <!-- <textarea placeholder='请输入用户名' class="chatinput" name="user"></textarea> -->
+    <button type="primary" form-type='submit' class="submitbutton">提交</button>
+  </form>
+</view>

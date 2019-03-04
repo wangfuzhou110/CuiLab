@@ -1,0 +1,4 @@
+
+  <view class='form-container'>
+    <input class='input' placeholder='在此键入口令' name='mykey' password='true' bindinput='verifyNumber'></input>
+  </view>

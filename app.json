@@ -1,0 +1,64 @@
+{
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "pages": [
+    "pages/req/req",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calendar/calendar",
+    "pages/waste/waste",
+    "pages/mission/mission",
+    "pages/req/create/create",
+    "pages/req/usebase/usebase",
+    "pages/req/usebase/findbase/findbase",
+    "pages/req/usebase/findbase/verify/verify",
+    "pages/mission/makemission/makemission",
+    "pages/waste/createwaste/createwaste",
+    "pages/calendar/rili/rili",
+    "pages/calendar/rili/mo/mo",
+    "pages/calendar/rili/extract/extract",
+    "pages/calendar/rili/jian/jian"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "CuiLab",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffc0cb"
+  },
+  "tabBar": {
+    "color": "#778899",
+    "selectedColor": "#ffc0cb",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/imgs/icons/index_a.png",
+        "selectedIconPath": "/imgs/icons/index_b.png"
+      },
+      {
+        "pagePath": "pages/mission/mission",
+        "text": "任务",
+        "iconPath": "/imgs/icons/mission_a.png",
+        "selectedIconPath": "/imgs/icons/mission_b.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "预约",
+        "iconPath": "/imgs/icons/calendar_a.png",
+        "selectedIconPath": "/imgs/icons/calendar_b.png"
+      },
+      {
+        "pagePath": "pages/waste/waste",
+        "text": "耗材",
+        "iconPath": "/imgs/icons/waste_a.png",
+        "selectedIconPath": "/imgs/icons/waste_b.png"
+      }
+    ]
+  }
+}

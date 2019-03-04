@@ -1,0 +1,7 @@
+<!--pages/calendar/rili/mo/mo.wxml-->
+<view class='mo-container'>
+  <calendar selected="{{selected}}" bindselect="bindselect" bindgetdate="bindgetdate" />
+</view>
+<view class='name-input-container'>
+  <input bindinput='bindinput' placeholder='输入您的姓名' class='name-input'></input>
+</view>

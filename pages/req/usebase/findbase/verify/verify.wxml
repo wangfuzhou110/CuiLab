@@ -1,0 +1,15 @@
+<!--pages/req/usebase/findbase/verify/verify.wxml-->
+<!--pages/req/create/create.wxml-->
+<view class="title-container">
+  <text>用户身份验证</text>
+</view>
+<view class='form-container'>
+  <form bindsubmit='baseSubmit'>
+    <view display='flex' class="passwd-container">
+      <view class="passwd-text">请输入实验室{{name}}的密码</view>
+      <input placeholder='请输入密码' class="passwd-input" name="passwd" password='true'></input>
+    </view>
+    <!-- <textarea placeholder='请输入用户名' class="chatinput" name="user"></textarea> -->
+    <button type="primary" form-type='submit' class="submit-button">提交</button>
+  </form>
+</view>

@@ -1,0 +1,37 @@
+/* pages/req/req.wxss */
+.blank {
+  height: 40rpx
+}
+.hello {
+  text-align: center;
+  margin: 0px 0px 40rpx 0px;
+}
+.button {
+  width: 400rpx;
+  align-items: center;
+}
+
+/* 以下是在网上复制的代码 */
+
+.userinfo {  
+  position: relative;  
+  width: 750rpx;  
+  height: 320rpx;  
+  color: #fff;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+}  
+
+.userinfo-avatar {  
+  overflow:hidden;  
+  display: block;  
+  width: 160rpx;  
+  height: 160rpx;  
+  margin: 20rpx;  
+  margin-top: 50rpx;  
+  border-radius: 50%;  
+  border: 2px solid #e3e3e3;  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);  
+}  
+  

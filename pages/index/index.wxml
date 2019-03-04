@@ -1,0 +1,12 @@
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+</view>
+<view class="hello">
+  <text>你好，</text>
+  <open-data type="userNickName"></open-data>
+</view>
+<view class='welcome'>
+  <text>欢迎来到CuiLab实验室管理平台</text>
+</view>

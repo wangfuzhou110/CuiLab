@@ -1,0 +1,14 @@
+/* pages/calendar/rili/jian/jian.wxss */
+.name-input-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 50vh;
+  text-align: center;
+  width: 100vw;
+  border-bottom: 1px 
+}
+.name-input {
+  width: 40vw;
+  text-align: center 
+}
